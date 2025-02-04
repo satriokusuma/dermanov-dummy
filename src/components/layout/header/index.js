@@ -27,7 +27,6 @@ export default function Header({ simple, preview }) {
 
   return (
     <>
-
       <Outer simple={simple}>
         <Link href="/" passHref>
           <Logo aria-label="Logo">

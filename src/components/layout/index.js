@@ -47,26 +47,10 @@ export default function Layout({
   return (
     <>
       <Head>
-        <title key="title">{headTilte}</title>
-        <meta name="title" content={headTilte} />
-        <meta property="og:title" content={headTilte} />
-        <meta property="twitter:title" content={headTilte} />
-        {siteUrl && (
-          <link href={`${siteUrl}${router?.asPath}`} rel="canonical" />
-        )}
-        {description && (
-          <>
-            <meta key="description" name="description" content={description} />
-            <meta property="og:description" content={description} />
-            <meta property="twitter:description" content={description} />
-          </>
-        )}
-        {image && (
-          <>
-            <meta property="og:image" content={image} />
-            <meta property="twitter:image" content={image} />
-          </>
-        )}
+        <title key="title">{'Dermanov - Ecommerce Dummy'}</title>
+        <meta name="title" content={'Dermanov - Ecommerce Dummy'} />
+        <meta property="og:title" content={'Dermanov - Ecommerce Dummy'} />
+        <meta property="twitter:title" content={'Dermanov - Ecommerce Dummy'} />
 
         {/* Preconnect to Crystallize media CDN */}
         <link rel="preconnect" href="https://media.crystallize.com" />
